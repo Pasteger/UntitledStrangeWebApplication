@@ -1,0 +1,88 @@
+body {
+    background: lightgray;
+}
+main {
+    max-width: 38rem;
+    margin: auto;
+}
+html {
+    margin: auto;
+    line-height: 1.75;
+    font-size: 1.25em;
+}
+p,ul,ol {
+    margin-bottom: 2em;
+    color: #1d1d1d;
+    font-family: sans-serif;
+}
+h1 {
+    color: #254ca6;
+    font-family: sans-serif;
+}
+ul {
+    background-color: #2d2d2d;
+    border-color: #1d1d1d;
+    border-radius: 20px;
+    width: auto;
+    max-width: 80px;
+}
+li {
+    background: #367981;
+    text-align: left;
+}
+button {
+    border-color: cyan;
+    border-radius: 50px;
+    background-color: #e1f5ff;
+    font-size: 18px;
+    padding: 10px;
+    color: #007b95;
+}
+input {
+    border-color: #c8ffff;
+    border-radius: 50px;
+    background-color: #edf4ff;
+    font-size: 18px;
+    padding: 10px;
+    color: #4b7b95;
+    width: 100px;
+}
+#addressInput {
+    border-color: #c8ffff;
+    border-radius: 50px;
+    background-color: #edf4ff;
+    font-size: 18px;
+    padding: 10px;
+    color: #4b7b95;
+    width: 20px;
+    text-align: center;
+}
+#selectedPort, #cycleStatus {
+    border-left: 1px solid #3175a5;
+    border-top: 1px solid #3175a5;
+    border-right: 1px solid #265b80;
+    border-bottom: 1px solid #265b80;
+    border-width: 4px;
+    border-radius: 50px;
+    background-color: #edf4ff;
+    font-size: 18px;
+    padding: 10px;
+    color: #4b7b95;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+}
+#response {
+    border-left: 1px solid #3175a5;
+    border-top: 1px solid #3175a5;
+    border-right: 1px solid #265b80;
+    border-bottom: 1px solid #265b80;
+    border-width: 4px;
+    border-radius: 50px;
+    background-color: #edf4ff;
+    font-size: 18px;
+    padding: 10px;
+    color: #4b7b95;
+    text-align: left;
+    height: 30px;
+}
